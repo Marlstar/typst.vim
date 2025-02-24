@@ -12,6 +12,9 @@ compiler typst
 " " If you're on typst <v0.8, workaround for https://github.com/typst/typst/issues/1937
 " set errorformat^=\/%f:%l:%c:%m
 
+map 0 j gj
+map 0 k gk
+
 setlocal expandtab
 setlocal tabstop=8
 setlocal softtabstop=2
